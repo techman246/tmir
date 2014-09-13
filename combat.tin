@@ -1,0 +1,107 @@
+`action {{unload|unloads a %* from}}
+{play -v $vol ./sounds/other-combat/unload_ammo.wav $os}
+`
+`action {{hastily slam|slams a %* into the open ammo slot of}}
+{play -v $vol ./sounds/other-combat/load_gun.wav $os}
+`
+`action {%* the cartridge release lever on %*, causing the loaded cartridge to slide out of the weapon, and into %* hand.}
+{play -v $vol ./sounds/other-combat/unload_gun.wav $os}
+`
+`action {deftly draw}
+{play -v $vol ./sounds/other-combat/drawgun.wav $os}
+`
+`action {an oddly-shaped EM pulse emitter out of a pulse emitter clip.}
+{play -v $vol ./sounds/other-combat/draw_EM_pulse.wav $os}
+`
+`action {{deftly insert|an oddly-shaped EM pulse emitter into a pulse emitter clip}}
+{play -v $vol ./sounds/other-combat/holster.wav $os}
+`
+`action {{You aim|%* aims an oddly-shaped EM pulse emitter at a %* and activate|activates it.}}
+{play -v $vol ./sounds/other-combat/EMPulse.wav $os}
+`
+`action {The shot hits}
+{play -v $vol ./sounds/other-combat/youshot.wav $os}
+`
+`action {The shot blows a hole in}
+{play -v $vol ./sounds/other-combat/praelor_hit.wav $os}
+`
+`action {{The shot misses!|%* skillfully dodges the shot.}}
+{play -v $vol ./sounds/other-combat/shotmiss.wav $os}
+`
+`action {{A %* clicks oddly. It must be out of ammo.|A loud clicking is followed by the clatter of an empty cartridge to the floor.}}
+{play -v $vol ./sounds/other-combat/emptygun.wav $os}
+`
+`action {You hear a gentle hum as the weapons power up.}
+{play -v $vol ./sounds/combat/weapons_on.wav $os}
+`
+`action {You hear the gentle hum begin to fade as the weapons power down.}
+{play -v $vol ./sounds/combat/weapons_off.wav $os}
+`
+`action {red lights flash overhead}
+{play -v $vol ./sounds/combat/redstart.wav $os}
+`
+`action {continue to flash overhead.}
+{play -v $vol./sounds/combat/redcont.wav $os}
+`
+`action {You hear a high-pitched squeal as the starship emits a sustained long-range laser burst.}
+{play -v $vol ./sounds/combat/laser_squeal$rnum5.wav $os}
+`
+`action {locking onto}
+{play -v $vol ./sounds/ship/computer/Keyboard1.wav $os}
+`
+`action {locked on}
+{play -v $vol ./sounds/ship/computer/Keyboard1.wav $os}
+`
+`action {turrets are fired.}
+{play -v $vol ./sounds/combat/laser$rnum15.wav $os}
+`
+`action {You hear a thunk as a chunk of}
+{play -v $vol ./sounds/combat/cannon$rnum8.wav $os}
+`
+`action {You hear %* as bardenium is transferred from the ship's storage to the cannons.}
+{play -v $vol ./sounds/combat/cannonreload.wav $os}
+`
+`action {Target:}
+{play -v $vol ./sounds/combat/lockedonother.wav $os}
+`
+`action {has a lock on this starship.}
+{play -v $vol ./sounds/combat/lockedonyou.wav $os}
+`
+`action {"The target has moved from the locked coordinates."}
+{play -v $vol ./sounds/combat/lostlock.wav $os}
+`
+`action {{This starship has been hit by| seemingly large impacts the hull.}}
+{play -v $vol ./sounds/combat/you_hit$rnum5.wav $os}
+`
+`action {light as lasers from the %* impact the hull.}
+{play -v $vol ./sounds/combat/yourhit.wav $os}
+`
+`action {"Hit on %* starship %*."}
+{play -v $vol ./sounds/combat/otherhit.wav $os;`math {cdhits} {$cdhits+1}}
+`
+`action {"Partial hit on %*}
+{play -v $vol ./sounds/combat/partial_hit.wav $os;`math {cphits} {$cphits+1}}
+`
+`action {"There is no target at those coordinates. Aborting."}
+{play -v $vol ./sounds/general/misc/cancel.wav $os}
+
+`action {Target destroyed.}
+{play -v $vol ./sounds/combat/otherdestroyed.wav $os}
+`
+`action {The computer announces, "Mission objective has been completed in approximately %1. Return to base."}
+{play -v $vol ./sounds/music/$rnum63.wav $os;`math {ctotal} {$cdhits+$cphits};`delay {5} {`showme {During your last combat mission you got $ctotal total hits, $cdhits direct hits, and $cphits partial hits.}};`delay {6} {`variable {cdhits} {0};`variable {cphits} {0};`variable {ctotal} {0}}}
+``
+`action {has launched an interdictor.}
+{play -v $vol ./sounds/combat/interdictor.wav $os}
+`
+`action {You hear a thunk as a blockade is launched.}
+{play -v $vol ./sounds/ship/misc/blocadesingle.wav $os}
+`
+`action {You hear several thunks as blockades are launched.}
+{play -v $vol ./sounds/ship/misc/blocademultiple.wav $os}
+`
+`action {has fired at}
+{play -v $vol ./sounds/combat/other_fire.wav $os}
+`
+`action {The ship shudders violently as solar material impacts the hull.}
+{play -v $vol ./sounds/combat/solar_debris.wav $os}

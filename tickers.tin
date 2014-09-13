@@ -1,0 +1,10 @@
+`ticker {rnum2} {`math {rnum2} {1d2}} {1}
+`ticker {rnum3} {`math {rnum3} {1d3}} {1}
+`ticker {rnum4} {`math {rnum4} {1d4}} {1}
+`ticker {rnum5} {`math {rnum5} {1d5}} {1}
+`ticker {rnum6} {`math {rnum6} {1d6}} {1}
+`ticker {rnum8} {`math {rnum8} {1d8}} {1}
+`ticker {rnum9} {`math {rnum9} {1d9}} {1}
+`ticker {rnum15} {`math {rnum15} {1d15}} {1}
+`ticker {rnum20} {`math {rnum20} {1d20}} {1}
+`ticker {rnum63} {`math {rnum63} {1d60}} {1}

@@ -1,0 +1,9 @@
+`format starttime %U;
+`act {This is a lag test.}
+{
+    `format endtime %U;
+    `math result ($endtime - $starttime) / 1000000.00;
+    `showme {You hav $result seconds lag}
+} 
+`send fecho This is a lag test.
+`gag {This is a lag test.}

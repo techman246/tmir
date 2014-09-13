@@ -1,0 +1,11 @@
+`action {You hear several clinking sounds as the ship is repaired.}
+{play -v $vol ./sounds/combat/repair/repair1.wav $os}
+`
+`action {You hear a shrill screeching sound as repair drones drag replacement components across the hull.}
+{play -v $vol ./sounds/combat/repair/repair6.wav $os}
+`
+`action {You hear an electrical zapping sound as repairs to the ship continue.}
+{play -v $vol ./sounds/combat/repair/repair7.wav $os}
+`
+`action {You hear a buzzing sound from the hull as repairs continue.}
+{play -v $vol ./sounds/combat/repair/repair10.wav $os}

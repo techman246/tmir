@@ -1,0 +1,193 @@
+`gag {&}
+`					/*Combat*/
+`
+`gag {You unload a %* from}
+`gag {You hastily slam a %* into the open ammo slot of}
+`gag {You depress the cartridge release lever on %*, causing the loaded cartridge to slide out of the weapon, and into your hand.}
+`gag {You slide an oddly-shaped EM pulse emitter out of a pulse emitter clip.}
+`gag {You aim an oddly-shaped EM pulse emitter at a %* and activate it.}
+`gag {You point a %* at %* and fire!}
+`gag {The shot misses!}
+`gag {A %* clicks oddly. It must be out of ammo.}
+`gag {A loud clicking is followed by the clatter of an empty cartridge to the floor.}
+`gag {The shot blows a hole in}
+`gag {{You deftly insert|You slide an oddly-shaped EM pulse emitter into a pulse emitter clip}}
+`
+`gag {You hear a mechanical whine as the laser reflectors reorient themselves.}
+`gag {red lights flash overhead}
+`gag {continue to flash overhead.}
+`gag {The lights overhead suddenly flicker as they change from red to green.}
+`gag {You hear the gentle hum begin to fade as the weapons power down.}
+`gag {turrets are fired.}
+`gag {You hear a thunk as a chunk of}
+`gag {You hear a high-pitched squeal as the starship emits a sustained long-range laser burst.}
+`gag {You hear %* as bardenium is transferred from the ship's storage to the cannons.}
+`gag {"Hit on %* starship %*."}
+`gag {"Partial hit on %*}
+`gag {Target destroyed.}
+`gag {This starship has been hit by}
+`gag {"The target has moved from the locked coordinates."}
+`gag {has a lock on this starship.}
+`gag {You hear an oscillating discordant sound of electrical energy reverberating off the bulkheads as an electromagnetically coupled energy packet is fired from the starship's CDP launcher.}
+`gag {You hear a sharp 'twanging' sound as a sensor interruption pulse is fired.}
+`gag {You hear a loud popping sound as a disarmament pulse is fired.}
+`gag {You hear a crackling burst of sound as an immobilization pulse builds up, before it is ejected from its emitter with a loud whine.}
+`
+`					repairing
+`
+`gag {You hear an electrical zapping sound as repairs to the ship continue.}
+`gag {You hear a shrill screeching sound as repair drones drag replacement components across the hull.}
+`gag {You hear several clinking sounds as the ship is repaired.}
+`gag {You hear a buzzing sound from the hull as repairs continue.}
+`gag {You hear a deafening booming sound as repairs to the ship proceed.}
+`
+`					salvaging
+`
+`gag {You are suddenly pressed against your seat as the vehicle is catapulted out of the docking bay.}
+`gag {{You feel the pull of acceleration as the craft navigates through the atmosphere.|You feel the pull of acceleration as the ship begins descending|ascending through the planet's atmosphere.}}
+`gag {The pull of acceleration eases off as the craft completes its maneuvering.}
+`gag {You hear the sounds of the atmospheric scoop activating.}
+`gag {The computer announces, "Warning, avian lifeform in processing chamber. Expelling..."}
+`gag {A gust of atmospheric wind suddenly buffets the ship, causing the engines to strain to keep the ship on course.}
+`gag {The pull of acceleration eases off as the ship ceases its}
+`gag {The vehicle begins slowly gliding through the atmosphere, occasionally firing thrusters to ensure it stays on course.}
+`
+`gag {You begin transferring debris to the spaceport.}
+`gag {You hear several loud thuds as cargo is transferred from the ship.}
+`gag {A haunting screech drifts in from the storage room as something heavy is dragged across the floor.}
+`gag {A loud whirring sound comes from the ship's storage room as motorized lifts haul cargo away.}
+`gag {A loud bang emanates from the storage room as workers haul cargo out.}
+`gag {You hear the bustle of activity from the ship's cargo hold.}
+`gag {The noises coming from the storage room gradually cease until they can be heard no more.}
+`
+`					Ship
+`
+`gag {allowing you to walk through}
+`gag {A chime sounds, indicating that somebody has entered the airlock.}
+`gag {"Beginning cycling."}
+`gag {A small light on the airlock control panel turns from red to yellow.}
+`gag {The hiss of air slowly fades away into nothingness, and the yellow light becomes green.}
+`gag {"Cycling complete."}
+`gag {exit the ship}
+`gag {You %* a series of straps around yourself and securely}
+`gag {the buckle of %* seatbelt, causing it to retract back into the chair.}
+`gag {A silver door}
+`gag {You hear a deep rumbling as the docking bay door opens.}
+`gag {You hear a deep rumbling as the docking bay door closes.}
+`gag {You notice a bright flash of light above; a starship must be coming in for a landing.}
+`
+`gag {You hear a loud clang as robotic arms seize the ship and transport it to the %*.}
+`gag {You detect a faint rumbling as the starship begins to orient toward another ship.}
+`gag {The starship rocks gently as the docking ring comes into contact with another starship.}
+`
+`gag {You lift a small panel and crawl through the resulting opening, emerging in the starship's network of ducts.}
+`gag {You open a %* lockbox.}
+`gag {You close a %* lockbox.}
+`gag {You %* lever %* the ship's systems.}
+`gag {You notice a faint hum begin to emanate from nowhere in particular as the starship's systems begin to power up.}
+`gag {You suddenly become aware of a decrease in noise as the ship's systems shut down, leaving you in complete silence.}
+`gag {You flip a heavy switch}
+`gag {The deck beneath you vibrates slightly as the relativity drive begins accelerating the starship through space.}
+`gag {The sounds of the relativity drive slowly cease as the starship comes to a halt.}
+`gag {The ship is already moving.}
+`gag {You hear a mechanical whine as the ship's solar panels orient themselves toward a star.}
+`gag {You hear a mechanical whine as the ship's solar panels return to their previous positions along the hull.}
+`gag {The ship shudders violently as solar material impacts the hull.}
+`
+`
+`					Travel
+`
+`gag {opens a wormhole.}
+`gag {wormhole's event horizon.}
+`gag {travels through the wormhole.}
+`gag {other side of the wormhole.}
+`
+`gag {You hear a sharp whine as the starship begins an intrasector slip.}
+`gag {The starship shudders beneath your feet. It feels like the hull is breaking apart around you.}
+`gag {With a sharp lurch, the starship completes its intrasector slip.}
+`
+`gag {You hear a deep hum as the starship begins an intrasector subwarp.}
+`gag {The starship begins vibrating violently as the hum picks up in intensity.}
+`gag {The vibration diminishes as the starship completes its subwarp.}
+`
+`gag {You hear a gentle pulsing sound as the starship begins an intrasector wavewarp.}
+`gag {The starship shudders beneath your feet as it continues propelling itself forward.}
+`gag {With a sharp lurch, the starship completes its intrasector wavewarp. The pulsing sound stops as the wavewarp drive powers down.}
+`
+`gag {You can't go that way.}
+`gag {The doors to the pod close}
+`gag {The pod starts picking up speed, very quickly reaching top}
+`gag {The pod continues}
+`gag {The pod is buffeted in all directions in the planet's atmosphere.}
+`gag {You are thrown back against your seat as the craft hits an air pocket in the atmosphere and then breaks free.}
+`gag {The doors open and you disembark.}
+`
+`gag {You notify flight control of your desire}
+`gag {The sound of the relativity drive echoes through the room as it propels the ship towards space.}
+`gag {The sounds of the relativity drive calm as the starship completes its final maneuver into space.}
+`gag {descends toward a}
+`gag {moves toward}
+`gag {You feel a mild vibration as the ship nears the active jumpgate.}
+`gag {The experience abruptly ends as the starship exits from the companion jumpgate and the relativity drive takes over to slow the ship to a stop.}
+`gag {the gate's event horizon.}
+`gag {The windows automatically dim as gate after gate becomes visible, each causing a brilliant flash of light as it redirects the wormhole.}
+`gag {You are suddenly jarred as the ship begins rapid deceleration.}
+`
+`gag {The ferry rocks gently as it glides across the water.}
+`
+`					Misc
+`
+`
+`gag {That space is occupied.}
+`gag {You press a small button on the side of a %* archaeological dig site scanner}
+`gag {You begin gently brushing dirt aside with a small brush.}
+`gag {A %* archaeological dig site scanner reports nothing nearby.}
+`
+`gag {blue lights flash overhead.}
+`gag {The computer announces, "Self-destruct sequence initiated. Destruction in sixty seconds."}
+`gag {The computer announces, "Self-destruct in thirty seconds."}
+`gag {The computer announces, "Self-destruct in ten seconds."}
+`gag {The computer announces, "Five."}
+`gag {The computer announces, "Four."}
+`gag {The computer announces, "Three."}
+`gag {The computer announces, "Two."}
+`gag {The computer announces, "One."}
+`gag {You hear several rumbling sounds as the starship explodes around you.}
+`gag {deploy an asteroid anchor.}
+`gag {press a small button on the side of an asteroid anchor, which forcefully buries itself into the ground.}
+`nop {You press a button on the side of an asteroid anchor, which works its way out of the ground.}
+`gag {You begin to painstakingly tie a coil of sturdy line to an asteroid anchor.}
+`gag {You step back and admire your handiwork.}
+`gag {You press a button on the side of an asteroid hauling kit.}
+`gag {A light envelops the room and quickly sucks your asteroid hauling supplies into an asteroid hauling kit.}
+`gag {The transport, wasting no time, lifts off and begins}
+`gag {A large planetary mining drone beeps quietly, indicating that it has stored one unit of material.}
+`
+`gag {You begin to merrily float off into the great unknown.}
+`gag {You arrive at your new coordinates.}
+`gag {#$#soundpack}
+`gag {tracking functionality has been activated.}
+`gag {{knocking on the hull.|knocking impatiently on the hull.}}
+`gag {The sound of strained components echos throughout the pod. It sounds as if it's going to break apart altogether.}
+`gag {The experimental wormhole drive suddenly kicks to life, creating a high-pitched mechanical whine that fills the enclosed space.}
+`gag {The pod vibrates violently as it approaches the wormhole mouth.}
+`gag {With one final burst of acceleration, the pod emerges from the wormhole}
+`gag {You feel mild acceleration as the pod descends.}
+`gag {With a final jolt, the pod completes its landing. As you depart, you notice an army of automated drones arrive to clear the spent pod}
+`
+`gag {A %* washing machine begins noisily agitating the clothing inside.}
+`gag {A %* washing machine stops agitating and begins the spin cycle.}
+`gag {A %* washing machine suddenly goes silent as the spin cycle ends.}
+`
+`gag {A %* dryer warms up and spins as it begins drying the clothes.}
+`gag {A %* dryer continues increasing the rate of spin.}
+`gag {A %* dryer spins at an extremely fast rate, rapidly drying the clothes.}
+`gag {A %* dryer suddenly goes silent as the drying cycle ends.}
+`
+`gag {You wind up and send a ball down the lane.  Good luck.}
+`
+`gag {You jump in the pool and begin to swim.}
+`gag {You take a deep breath, dive underwater, and begin to swim.}
+`gag {You utter a terrified scream!}
+`gag {You cough.}
+`gag {You lean back your head and laugh out loud!}

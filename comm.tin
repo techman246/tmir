@@ -1,0 +1,27 @@
+`action {[General Communication]}
+{play -v $vol ./sounds/communication/general.wav $os}
+`
+`action {[Private | %*]}
+{play -v $vol ./sounds/communication/private.wav $os}
+`
+`action {{This ship transmits,|Via general sector communication,}}
+{play -v $vol ./sounds/communication/gen_sector.wav $os}
+`
+`action {[Chatter]}
+{play -v $vol ./sounds/communication/chatter.wav $os}
+`
+`action {[Frequency %*}
+{play -v $vol ./sounds/communication/metaf.wav $os}
+`
+`action {[Short-range Communication]}
+{play -v $vol ./sounds/communication/short.wav $os}
+`
+`action {You tune a %* metafrequency communicator to}
+{play -v $vol ./sounds/communication/tune.wav $os}
+`
+`action {[Newbie]}
+{play -v $vol./sounds/communication/newbie.wav $os}
+`
+`action {%*'s voice comes over the intercom, saying, "%*"}
+{play ./sounds/ship/comm/PA$ruum8.wav $os}
+

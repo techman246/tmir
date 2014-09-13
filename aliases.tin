@@ -1,0 +1,15 @@
+`alias {bn} {beacon near}
+`alias {br} {beacon range}
+`alias {bd} {beacon distance}
+`alias {c}  {coord}
+`alias {gc} {galcoords}
+`alias {fo} {focus}
+`alias {unf} {unfocus}
+`alias {chill} {a chills out and relaxes}
+`alias {vol} {`variable {vol} {""}}
+`alias {gcc} {`delay {2} {`math {SX} {$GC1 - %1};`math {SY} {$GC2 - %2};`math {SZ} {$GC3 - %3};`if {$SX >= 0} {`variable {dirX} {west}} {`variable {dirX} {east}};`if {$SY >= 0} {`variable {dirY} {north}} {`variable {dirY} {south}};`if {$SZ >= 0} {`variable {dirZ} {up}} {`variable {dirZ} {down}};`if {$SX < 0} {`math {SX} {$SX*-1}};`if {$SY <0} {`math {SY} {$SY*-1}};`if {$SZ < 0} {`math {SZ} {$SZ*-1}};`showme {The destination sector lies $SX sectors $dirX, $SY sectors $dirY, and $SZ sectors $dirZ.}}}
+`alias {spreload} {`read ./loader.tin;`showme {Reloading complete.}}
+`alias {lag} {`read ./lagcalc.tin}
+`alias {play} {`system play}
+`alias {ambon} {`read ambiances.tin;room}
+`alias {amboff} {`class {ambiances} {KILL};`system killall mplayer}

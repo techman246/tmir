@@ -1,0 +1,19 @@
+#config {tintin char} {`}
+`config {log} {plain}
+`format DateVar {%t} {%Y-%m-%d-%T}
+`read loader.tin
+`variable {ambvol} {20}
+`variable {DIR} {.}
+`variable {vol} {0.6}
+`variable {os} {>/dev/null 2>&1 &}
+`variable {cdhits} {0}
+`variable {cphits} {0}
+`
+`action {*** Disconnected ***}
+{`end}
+`
+`alias {audio} {`system mplayer $DIR/audio_test.wav $os}
+`session {DavidB} {toastsoft.net} {1234}
+`
+`action {*** Connected ***}
+{`send {#$#register_soundpack TMir | 1.0.2};`log {o} {./logs/$DateVar.log}}

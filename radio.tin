@@ -1,0 +1,15 @@
+`alias {radio} 
+{`if {"%0" == ""} {`showme You must specify an option. possible options are:;
+`showme {1. Grenade Main};
+`showme {2. Grenade Hip-Hop};
+`showme {3. Grenade Orchestral};
+`showme {4. Grenade Rock};
+`showme {5. Grenade EDM};
+`showme {6. Stop}};
+`elseif {%0 == 1} {amboff;`system mplayer http://grenaderadio.com:8000/gradio-mp3 -volume "$ambvol" $os}; 
+`elseif {%0 == 2} {amboff;`system mplayer http://grenaderadio.com:8000/gradio-hiphop -volume "$ambvol" $os} 
+`elseif {%0 == 3} {amboff;`system mplayer http://grenaderadio.com:8000/gradio-orchestral -volume "$ambvol" $os}
+`elseif {%0 == 4} {amboff;`system mplayer http://grenaderadio.com:8000/gradio-rock -volume "$ambvol" $os}
+`elseif {%0 == 5} {amboff;`system mplayer http://grenaderadio.com:8000/gradio-edm -volume "$ambvol" $os}
+`elseif {%0 == 6} {`system killall mplayer $os}
+}

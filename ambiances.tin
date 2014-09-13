@@ -1,0 +1,32 @@
+`class {ambiances} {OPEN}
+`action {#SESSION 'gts' ACTIVATED.}
+{`system killall mplayer $os;`end}
+`
+`action {%* Airlock}
+{`system mplayer ./sounds/ship/rooms/airlock.wav -volume "$ambvol" -loop 0 $os}
+`
+`action {%* Control Room}
+{`system mplayer ./sounds/ship/rooms/control$rnum3.wav -volume "$ambvol" -loop 0 $os}
+`
+`action {%* Engineering Room}
+{`system mplayer ./sounds/ship/rooms/eng$rnum4.wav -volume "$ambvol" -loop 0 $os}
+`
+`action {%* Weapons Room}
+{`system mplayer ./sounds/ship/rooms/weapons_room.wav -volume "$ambvol" -loop 0 $os}
+`
+`action {%* Docking Bay}
+{`system mplayer ./sounds/ship/rooms/docking_bay.wav -volume "$vol" -loop 0 $os}
+`
+`action {%* Storage Room}
+{`system mplayer ./sounds/ship/rooms/storage.wav -volume "$ambvol" -loop 0 $os}
+`
+`action {["%*" Room %*]}
+{`system mplayer ./sounds/ship/rooms/state_room.wav -volume "$ambvol" -loop 0 $os}
+`
+`action {["%*" Empty Room]}
+{`system mplayer ./sounds/ship/rooms/misc_ship_rooms.wav -volume "$ambvol" -loop 0 $os}
+`
+`action {["%*" Observation Center]}
+{`system mplayer ./sounds/ship/rooms/misc_ship_rooms.wav -volume "amb$vol" -loop 0 $os}
+`
+`class {ambiances} {CLOSE}
