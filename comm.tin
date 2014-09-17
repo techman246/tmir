@@ -20,8 +20,7 @@
 {play -v $vol ./sounds/communication/tune.wav $os}
 `
 `action {[Newbie]}
-{play -v $vol./sounds/communication/newbie.wav $os}
+{play -v $vol ./sounds/communication/newbie.wav $os}
 `
-`action {%*'s voice comes over the intercom, saying, "%*"}
-{play ./sounds/ship/comm/PA$ruum8.wav $os}
-
+`action {%1's voice comes over the intercom, saying, %2}
+{play -v $vol ./sounds/ship/comm/PA$rnum8.wav $os}

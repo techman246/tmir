@@ -1,7 +1,7 @@
 `sub {%*}  { %0}  {1}
 `sub {A voice comes over the speaker and says,} {}
 `
-`nop {%*'s voice comes over the intercom, saying, "%*"} {%1, "%2"}
+`sub {%1's voice comes over the intercom, saying, "%2"} {%1, "%2"}
 `sub {%* press a small button mounted on the wall and say, %*} {%1, %2}
 `sub {A small console nearby flashes for your attention. A quick glance reveals that %*} {%1}
 `

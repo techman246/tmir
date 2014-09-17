@@ -6,10 +6,10 @@
 `showme {4. Grenade Rock};
 `showme {5. Grenade EDM};
 `showme {6. Stop}};
-`elseif {%0 == 1} {amboff;`system mplayer http://grenaderadio.com:8000/gradio-mp3 -volume "$ambvol" $os}; 
-`elseif {%0 == 2} {amboff;`system mplayer http://grenaderadio.com:8000/gradio-hiphop -volume "$ambvol" $os} 
-`elseif {%0 == 3} {amboff;`system mplayer http://grenaderadio.com:8000/gradio-orchestral -volume "$ambvol" $os}
-`elseif {%0 == 4} {amboff;`system mplayer http://grenaderadio.com:8000/gradio-rock -volume "$ambvol" $os}
-`elseif {%0 == 5} {amboff;`system mplayer http://grenaderadio.com:8000/gradio-edm -volume "$ambvol" $os}
-`elseif {%0 == 6} {`system killall mplayer $os}
+`elseif {%0 == 1} {`unaction {You walk};amboff;`delay {2}{`system mplayer http://grenaderadio.com:8000/gradio-mp3 -volume "$ambvol" $os}}; 
+`elseif {%0 == 2} {`unaction {You walk};amboff;`delay {2}{`system mplayer http://grenaderadio.com:8000/gradio-hiphop -volume "$ambvol" $os}}
+`elseif {%0 == 3} {`unaction {You walk};amboff;`delay {2}{`system mplayer http://grenaderadio.com:8000/gradio-orchestral -volume "$ambvol" $os}}
+`elseif {%0 == 4} {`unaction {You walk};amboff;`delay {2}{`system mplayer http://grenaderadio.com:8000/gradio-rock -volume "$ambvol" $os}}
+`elseif {%0 == 5} {`unaction {You walk};amboff;`delay {2}{`system mplayer http://grenaderadio.com:8000/gradio-edm -volume "$ambvol" $os}}
+`elseif {%0 == 6} {`action {You walk} {`system killall mplayer $os};`system killall mplayer $os}
 }
