@@ -91,3 +91,5 @@ CHANGELOG
 	enabled volume changes for ambiance as well as standard sounds
 09/13/14
 	Added radio streaming functionality
+09/24/14
+	Added sound for lore file import

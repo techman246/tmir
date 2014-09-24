@@ -231,3 +231,6 @@
 `
 `action {You crouch behind a %*, using it for cover.}
 {play -v $vol ./sounds/crouch.wav $os}
+`
+`action {A %* Lore computer beeps quietly, indicating that there is a new file to import.}
+{play -v $vol ./sounds/general/planetary_mining/drone_beep.wav repeat 3 $os}
