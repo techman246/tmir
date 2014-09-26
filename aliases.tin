@@ -1,6 +1,8 @@
+`alias {@atmo} {@atmospheric-salvagers}
 `alias {bn} {beacon near}
 `alias {br} {beacon range}
 `alias {bd} {beacon distance}
+`alias {clear} {`system clear}
 `alias {c}  {coord}
 `alias {gc} {galcoords}
 `alias {fo} {focus}
@@ -12,5 +14,5 @@
 `alias {spreload} {`read ./loader.tin;`showme {Reloading complete.}}
 `alias {lag} {`read ./lagcalc.tin}
 `alias {play} {`system play}
-`alias {ambon} {`read ambiances.tin;room}
+`alias {ambon} {`read ambiances.tin;`variable {ambcount} {0};`line gag;room}
 `alias {amboff} {`class {ambiances} {KILL};`system killall mplayer $os}

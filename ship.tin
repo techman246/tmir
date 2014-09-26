@@ -93,7 +93,7 @@
 {play -v $vol ./sounds/ship/misc/airend.wav $os}
 `
 `action {exit the ship.}
-{play -v $vol ./sounds/ship/misc/airlockexit.wav $os;`system killall mplayer}
+{play -v $vol ./sounds/ship/misc/airlockexit.wav $os}
 `
 `action {{docking bay door opens.|You feel a mild vibration as the ship begins to enter another ship's docking bay.}}
 {play -v $vol ./sounds/ship/misc/dockingbaydooropen.wav $os}

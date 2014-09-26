@@ -24,3 +24,6 @@
 `
 `action {%1's voice comes over the intercom, saying, %2}
 {play -v $vol ./sounds/ship/comm/PA$rnum8.wav $os}
+`
+`action {This ship broadcasts, "%*"}
+{play -v $vol ./sounds/ship/comm/broadcast.wav $os}

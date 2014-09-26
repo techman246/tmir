@@ -86,10 +86,10 @@
 {play -v $vol ./sounds/general/misc/cancel.wav $os}
 
 `action {Target destroyed.}
-{play -v $vol ./sounds/combat/otherdestroyed.wav $os}
+{play -v $vol ./sounds/combat/otherdestroyed.wav $os;`math {tdest} {$tdest+1}}
 `
 `action {The computer announces, "Mission objective has been completed in approximately %1. Return to base."}
-{play -v $vol ./sounds/music/$rnum63.wav $os;`math {ctotal} {$cdhits+$cphits};`delay {5} {`showme {During your last combat mission you got $ctotal total hits, $cdhits direct hits, and $cphits partial hits.}};`delay {6} {`variable {cdhits} {0};`variable {cphits} {0};`variable {ctotal} {0}}}
+{play -v $vol ./sounds/music/$rnum63.wav $os;`math {ctotal} {$cdhits+$cphits+$tdest};`delay {5} {`showme {During your last combat mission you got $ctotal total hits, $cdhits direct hits, $cphits partial hits and destroyed $tdest targets.}};`delay {6} {`variable {cdhits} {0};`variable {cphits} {0};`variable {tdest} {0};`variable {ctotal} {0}}}
 ``
 `action {has launched an interdictor.}
 {play -v $vol ./sounds/combat/interdictor.wav $os}

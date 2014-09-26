@@ -224,7 +224,7 @@
 {play -v $vol ./sounds/music/$rnum63.wav $os}
 `
 `action {You walk}
-{`system killall mplayer $os}
+{`variable {ambcount} {0};`system killall mplayer $os}
 `
 `action {You stop using a %* for cover.}
 {play -v $vol ./sounds/uncrouch.wav $os}

@@ -93,3 +93,7 @@ CHANGELOG
 	Added radio streaming functionality
 09/24/14
 	Added sound for lore file import
+09/25/14
+	hopefully fixed hit counter during missions
+	fixed bug where ambiances would play multiple times. once upon entering a room and any subsequent command that displayed that room title.
+	fixed a "no process found" error when exiting a ship if ambiances were not playing.

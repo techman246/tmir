@@ -11,5 +11,5 @@
 `elseif {%0 == 3} {`unaction {You walk};amboff;`delay {2}{`system mplayer http://grenaderadio.com:8000/gradio-orchestral -volume "$ambvol" $os}}
 `elseif {%0 == 4} {`unaction {You walk};amboff;`delay {2}{`system mplayer http://grenaderadio.com:8000/gradio-rock -volume "$ambvol" $os}}
 `elseif {%0 == 5} {`unaction {You walk};amboff;`delay {2}{`system mplayer http://grenaderadio.com:8000/gradio-edm -volume "$ambvol" $os}}
-`elseif {%0 == 6} {`action {You walk} {`system killall mplayer $os};`system killall mplayer $os}
+`elseif {%0 == 6} {`action {You walk} {`variable {ambcount} {0};`system killall mplayer $os};`system killall mplayer $os}
 }
