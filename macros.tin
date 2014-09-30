@@ -1,7 +1,0 @@
-`nop Adjust ambiance volumes
-`macro {\eOR} {`math {ambvol} {$ambvol-5};`system mplayer ./volume-change.wav $os} /*F3*/
-`macro {\eOS} {`math {ambvol} {$ambvol+5};`system mplayer ./volume-change.wav $os} /*F4*/
-`
-`nop Adjust standard volumes
-`macro {\e[15~} {`math {vol} {$vol-0.1};`system mplayer ./volume-change.wav $os} /*F5*/
-`macro {\e[17~} {`math {vol} {$vol+0.1};`system mplayer ./volume-change.wav $os} /*F6*/
